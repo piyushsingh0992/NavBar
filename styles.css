@@ -1,15 +1,26 @@
 :root {
-  --primary: #4338ca;
-  --primary-hover: #3730a3;
-  --secondary: #4f46e5;
-  --tertiary: #6366f1;
-  --background: #e0e7ff;
-  --primary-text: #52525b;
-  --bold-text: #27272a;
+  --primary: #ff6600;
+  --secondary: #ff771f;
+  --tertiary: #ff8c3c;
+  --background: #ffaf7a;
+  --primary-text: #003f5a;
+  --bold-text: #000;
+  
+
+
+  --dark-primary:#121212;
+  --dark-secondary: #404040;
+  --dark-tertiary: #282828;;
+
+ --dark-background:#282828 ;
+  --dark-primary-text: #B3B3B3;
+  --dark-bold-text: #ffffff;
 
   --white: #ffffff;
-  --white-hover: #f3f4f6;
+  --black:#000;
 }
+
+
 * {
   padding: 0px;
   margin: 0px;
@@ -17,6 +28,10 @@
 
 a {
   text-decoration: none;
+}
+
+body{
+  background-color: var(--white);
 }
 
 .navbar {
@@ -163,7 +178,8 @@ a {
   }
 
   .navbar-link:hover {
-    background-color: var(--primary-hover);
-    color: var(--background);
+    
+    background-color: var(--secondary);
+    color: var(--primary-text);
   }
 }
